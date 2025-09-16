@@ -1,0 +1,25 @@
+#container{ 
+           width: 786px;
+           height: auto;
+           margin: 0 auto;          
+          }
+.card{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      border: black 1px solid;
+      margin-bottom: 16px;
+     }
+.img-card{ 
+          width: 200px;
+          height: 200px;
+          background-color: aquamarine;
+         }
+.img-card img{ width: 100%;}
+.text-card{ width: 550px;}
+@media screen and (max-width:786px) {                                    
+                                    .img-card{width: 100%; flex-direction: column;}
+                                    .text-card{width: 100%;}
+                                    .card{ width: 100%; flex-direction: column;}
+                                    }
